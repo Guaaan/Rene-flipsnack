@@ -1,23 +1,23 @@
+body {
+  background-color: #212121 !important;
+}
+.container {
+  position: absolute;
+  top: 35%; /* Buscamos el centro horizontal (relativo) del navegador */
+  left: 50%; /* Buscamos el centro vertical (relativo) del navegador */
+  width: 600px; /* Definimos el ancho del objeto a centrar */
+  height: 400px; /* Definimos el alto del objeto a centrar */
+  margin-top: -200px; /* Restamos la mitad de la altura del objeto con un margin-top */
+  margin-left: -300px; /* Restamos la mitad de la anchura del objeto con un margin-left */
+}
+iframe {
+  height: 600px;
+  background-color: #212121 !important;
+}
 
-    .flipbookkk{
-      margin-top: 15vh !important;
-      margin-bottom: 5vh !important;
-
+@media screen and (max-width: 800px) {
+  iframe {
+    width: 65%; 
+    margin-left: 100px;
   }
-
-  .flipbookkk-title{
-      color: #ffa200;
-      text-align: center;
-      font-size: 5vw !important;
-      font-family: "Poppins", Sans-serif;
-      font-weight: 900;
-      line-height: 75px;
-     text-shadow: 1px 3px 0px #373737;
-  }
-
-  @media(min-width: 768px){
-      .flipbookkk-title{
-      font-size: 2.5vw !important;
-  }
-
-  }
+}
